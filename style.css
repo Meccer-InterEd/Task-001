@@ -28,14 +28,19 @@
 }
 .adidasicon{
     position: absolute;
-    width: 40px;
+    width: 50px;
     height: auto;
     top: 0;
     left: 0;
 }
+.dollar-desc{
+    font-size: 14px;
+    color: #666;
+    margin-top: 0px;
+}
 .cart{
     position: absolute;
-    width: 40px;
+    width: 25px;
     height: auto;
     top: 0;
     right: 0;
@@ -51,6 +56,15 @@
 .text{
     margin-top: 20px;
     position: relative;
+}
+.product-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-desc{
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
 }
 .btnBlue{
     border: 1px solid blue;
