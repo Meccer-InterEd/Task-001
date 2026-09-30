@@ -1,0 +1,30 @@
+.body{
+    background: linear-gradient(
+        135deg,
+        #48c6ef 0%,
+        #667eea 50%,
+        #8e2de2 100%
+    );
+}
+.adidasicon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.cart{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.adidaszx{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
