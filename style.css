@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
 }
 .body{
    min-height: 100vh;
@@ -73,6 +73,7 @@
     margin: 2px;
     padding: 8px;
     cursor: pointer;
+    vertical-align: top;
 
 }
 .btnYellow{
@@ -82,18 +83,20 @@
     margin: 2px;
     padding: 8px;
     cursor: pointer;
+    vertical-align: top;
 }
 .btnPink{
-    border: 1px solid pink;
-    background-color: pink;
+    border: 1px solid rgb(241, 0, 249);
+    background-color: rgb(234, 4, 246);
     border-radius: 100%;
     margin: 2px;
     padding: 8px;
     cursor: pointer;
+    vertical-align: top;
 }
 .colour-label {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 18px;
 }
 .btnAdd{
     background-image: linear-gradient(to right, #48d0ef 0%, #3a7dd5 30%, #8604d2 80%);
@@ -107,4 +110,5 @@
     box-shadow: 0 0 20px #eee;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
