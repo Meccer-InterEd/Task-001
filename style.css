@@ -1,30 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .body{
-    background: linear-gradient(
-        135deg,
-        #48c6ef 0%,
-        #667eea 50%,
-        #8e2de2 100%
-    );
+   min-height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #48d0ef 0%, #3a7dd5 50%, #8e00e0 100%);
+}
+.container{
+    width: 350px;
+    border-radius: 24px;
+    padding: 24px 20px;
+    background-color: white;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+.images{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .adidasicon{
-    width: 100px;
-    height: 100px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    width: 40px;
+    height: auto;
+    top: 0;
+    left: 0;
 }
 .cart{
-    width: 100px;
-    height: 100px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    width: 40px;
+    height: auto;
+    top: 0;
+    right: 0;
 }
 .adidaszx{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 85%;
+    max-width: 220px;
+    object-fit: contain;
+    rotate: 20deg;
+    top: auto;
+    margin-top: 55px;
+}
+.text{
+    margin-top: 20px;
+    position: relative;
 }
